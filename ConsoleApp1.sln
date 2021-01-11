@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TorControlClient", "ConsoleApp1\TorControlClient.csproj", "{CF39F79E-7442-48ED-A49E-36C0910A520E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinTorControl", "WinTorControl\WinTorControl.csproj", "{0DBF7E8B-67F4-4EED-AC13-67387C6CAD37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF39F79E-7442-48ED-A49E-36C0910A520E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF39F79E-7442-48ED-A49E-36C0910A520E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF39F79E-7442-48ED-A49E-36C0910A520E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF39F79E-7442-48ED-A49E-36C0910A520E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DBF7E8B-67F4-4EED-AC13-67387C6CAD37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DBF7E8B-67F4-4EED-AC13-67387C6CAD37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DBF7E8B-67F4-4EED-AC13-67387C6CAD37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DBF7E8B-67F4-4EED-AC13-67387C6CAD37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A546D6A-0FE9-4F53-A134-81818FD5BB5E}
+	EndGlobalSection
+EndGlobal

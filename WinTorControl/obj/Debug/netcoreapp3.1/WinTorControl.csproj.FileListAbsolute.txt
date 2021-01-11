@@ -1,0 +1,15 @@
+C:\Users\mahdi\Desktop\test\TorClient\ConsoleApp1\WinTorControl\bin\Debug\netcoreapp3.1\WinTorControl.exe
+C:\Users\mahdi\Desktop\test\TorClient\ConsoleApp1\WinTorControl\bin\Debug\netcoreapp3.1\WinTorControl.deps.json
+C:\Users\mahdi\Desktop\test\TorClient\ConsoleApp1\WinTorControl\bin\Debug\netcoreapp3.1\WinTorControl.runtimeconfig.json
+C:\Users\mahdi\Desktop\test\TorClient\ConsoleApp1\WinTorControl\bin\Debug\netcoreapp3.1\WinTorControl.runtimeconfig.dev.json
+C:\Users\mahdi\Desktop\test\TorClient\ConsoleApp1\WinTorControl\bin\Debug\netcoreapp3.1\WinTorControl.dll
+C:\Users\mahdi\Desktop\test\TorClient\ConsoleApp1\WinTorControl\bin\Debug\netcoreapp3.1\WinTorControl.pdb
+C:\Users\mahdi\Desktop\test\TorClient\ConsoleApp1\WinTorControl\obj\Debug\netcoreapp3.1\WinTorControl.csprojAssemblyReference.cache
+C:\Users\mahdi\Desktop\test\TorClient\ConsoleApp1\WinTorControl\obj\Debug\netcoreapp3.1\WinTorControl.Form1.resources
+C:\Users\mahdi\Desktop\test\TorClient\ConsoleApp1\WinTorControl\obj\Debug\netcoreapp3.1\WinTorControl.csproj.GenerateResource.cache
+C:\Users\mahdi\Desktop\test\TorClient\ConsoleApp1\WinTorControl\obj\Debug\netcoreapp3.1\WinTorControl.AssemblyInfoInputs.cache
+C:\Users\mahdi\Desktop\test\TorClient\ConsoleApp1\WinTorControl\obj\Debug\netcoreapp3.1\WinTorControl.AssemblyInfo.cs
+C:\Users\mahdi\Desktop\test\TorClient\ConsoleApp1\WinTorControl\obj\Debug\netcoreapp3.1\WinTorControl.csproj.CoreCompileInputs.cache
+C:\Users\mahdi\Desktop\test\TorClient\ConsoleApp1\WinTorControl\obj\Debug\netcoreapp3.1\WinTorControl.dll
+C:\Users\mahdi\Desktop\test\TorClient\ConsoleApp1\WinTorControl\obj\Debug\netcoreapp3.1\WinTorControl.pdb
+C:\Users\mahdi\Desktop\test\TorClient\ConsoleApp1\WinTorControl\obj\Debug\netcoreapp3.1\WinTorControl.genruntimeconfig.cache

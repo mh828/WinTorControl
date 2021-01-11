@@ -1,0 +1,13 @@
+C:\Users\mahdi\Desktop\test\TorClient\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\TorControlClient.exe
+C:\Users\mahdi\Desktop\test\TorClient\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\TorControlClient.deps.json
+C:\Users\mahdi\Desktop\test\TorClient\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\TorControlClient.runtimeconfig.json
+C:\Users\mahdi\Desktop\test\TorClient\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\TorControlClient.runtimeconfig.dev.json
+C:\Users\mahdi\Desktop\test\TorClient\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\TorControlClient.dll
+C:\Users\mahdi\Desktop\test\TorClient\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\TorControlClient.pdb
+C:\Users\mahdi\Desktop\test\TorClient\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\TorControlClient.csprojAssemblyReference.cache
+C:\Users\mahdi\Desktop\test\TorClient\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\TorControlClient.AssemblyInfoInputs.cache
+C:\Users\mahdi\Desktop\test\TorClient\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\TorControlClient.AssemblyInfo.cs
+C:\Users\mahdi\Desktop\test\TorClient\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\TorControlClient.csproj.CoreCompileInputs.cache
+C:\Users\mahdi\Desktop\test\TorClient\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\TorControlClient.dll
+C:\Users\mahdi\Desktop\test\TorClient\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\TorControlClient.pdb
+C:\Users\mahdi\Desktop\test\TorClient\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\TorControlClient.genruntimeconfig.cache
