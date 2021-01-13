@@ -6,6 +6,7 @@ using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -90,6 +91,26 @@ namespace WinTorControl
             core.OnConnectionClose += Core_OnConnectionClose;
             core.OnMessage += Core_OnMessage;
             core.OnEventNotification += Core_OnEventNotification;
+
+            if (File.Exists("config.ini"))
+            {
+                string configuration = File.ReadAllText("config.ini");
+                var match = Regex.Match(configuration, @"(?<=host=).*", RegexOptions.Multiline | RegexOptions.IgnoreCase | RegexOptions.CultureInvariant);
+                if (match.Success)
+                    txtHost.Text = match.Value.Trim();
+
+                match = Regex.Match(configuration, @"(?<=password=).*", RegexOptions.Multiline | RegexOptions.IgnoreCase | RegexOptions.CultureInvariant);
+                if (match.Success)
+                    txtHashedPassword.Text = match.Value.Trim();
+
+                match = Regex.Match(configuration, @"(?<=port=).*", RegexOptions.Multiline | RegexOptions.IgnoreCase | RegexOptions.CultureInvariant);
+                if (match.Success)
+                {
+                    decimal tempNum = numPort.Value;
+                    decimal.TryParse(match.Value.Trim(), out tempNum);
+                    numPort.Value = tempNum;
+                }
+            }
         }
 
         void sendCommand(string command)
@@ -195,6 +216,12 @@ namespace WinTorControl
                     HashFileAuthentication = BitConverter.ToString(File.ReadAllBytes(openFileDialog1.FileName)).Replace("-", string.Empty);
                 }
             }
+        }
+
+        private void btnSaveConfig_Click(object sender, EventArgs e)
+        {
+            string configuration = string.Format("host={0}\nport={1}\npassword={2}", txtHost.Text.Trim(), numPort.Value.ToString(), txtHashedPassword.Text.Trim());
+            File.WriteAllText("config.ini", configuration);
         }
     }
 }

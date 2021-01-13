@@ -29,10 +29,13 @@ namespace WinTorControl
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.txtHost = new System.Windows.Forms.TextBox();
             this.btnMakeConnection = new System.Windows.Forms.Button();
             this.numPort = new System.Windows.Forms.NumericUpDown();
             this.gbxConnect = new System.Windows.Forms.GroupBox();
+            this.btnSaveConfig = new System.Windows.Forms.Button();
+            this.btnopeFile = new System.Windows.Forms.Button();
             this.txtHashedPassword = new System.Windows.Forms.TextBox();
             this.gbxComment = new System.Windows.Forms.GroupBox();
             this.btnDisconnect = new System.Windows.Forms.Button();
@@ -50,8 +53,8 @@ namespace WinTorControl
             this.gbSignal = new System.Windows.Forms.GroupBox();
             this.btnSignal = new System.Windows.Forms.Button();
             this.cmbSignals = new System.Windows.Forms.ComboBox();
-            this.btnopeFile = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.numPort)).BeginInit();
             this.gbxConnect.SuspendLayout();
             this.gbxComment.SuspendLayout();
@@ -67,7 +70,6 @@ namespace WinTorControl
             this.txtHost.PlaceholderText = "Ip or host";
             this.txtHost.Size = new System.Drawing.Size(157, 23);
             this.txtHost.TabIndex = 6;
-            this.txtHost.Text = "127.0.0.1";
             // 
             // btnMakeConnection
             // 
@@ -91,13 +93,14 @@ namespace WinTorControl
             this.numPort.Size = new System.Drawing.Size(75, 23);
             this.numPort.TabIndex = 3;
             this.numPort.Value = new decimal(new int[] {
-            9000,
+            9051,
             0,
             0,
             0});
             // 
             // gbxConnect
             // 
+            this.gbxConnect.Controls.Add(this.btnSaveConfig);
             this.gbxConnect.Controls.Add(this.btnopeFile);
             this.gbxConnect.Controls.Add(this.txtHashedPassword);
             this.gbxConnect.Controls.Add(this.txtHost);
@@ -110,6 +113,27 @@ namespace WinTorControl
             this.gbxConnect.TabStop = false;
             this.gbxConnect.Text = "connect to tor";
             // 
+            // btnSaveConfig
+            // 
+            this.btnSaveConfig.Location = new System.Drawing.Point(294, 68);
+            this.btnSaveConfig.Name = "btnSaveConfig";
+            this.btnSaveConfig.Size = new System.Drawing.Size(77, 23);
+            this.btnSaveConfig.TabIndex = 9;
+            this.btnSaveConfig.Text = "save";
+            this.toolTip1.SetToolTip(this.btnSaveConfig, "Save connection configuration");
+            this.btnSaveConfig.UseVisualStyleBackColor = true;
+            this.btnSaveConfig.Click += new System.EventHandler(this.btnSaveConfig_Click);
+            // 
+            // btnopeFile
+            // 
+            this.btnopeFile.Location = new System.Drawing.Point(174, 68);
+            this.btnopeFile.Name = "btnopeFile";
+            this.btnopeFile.Size = new System.Drawing.Size(114, 23);
+            this.btnopeFile.TabIndex = 8;
+            this.btnopeFile.Text = "Authentication file";
+            this.btnopeFile.UseVisualStyleBackColor = true;
+            this.btnopeFile.Click += new System.EventHandler(this.btnopeFile_Click);
+            // 
             // txtHashedPassword
             // 
             this.txtHashedPassword.Location = new System.Drawing.Point(11, 68);
@@ -118,7 +142,6 @@ namespace WinTorControl
             this.txtHashedPassword.PlaceholderText = "hashed password";
             this.txtHashedPassword.Size = new System.Drawing.Size(157, 23);
             this.txtHashedPassword.TabIndex = 7;
-            this.txtHashedPassword.Text = "m1234";
             // 
             // gbxComment
             // 
@@ -295,16 +318,6 @@ namespace WinTorControl
             this.cmbSignals.Size = new System.Drawing.Size(228, 23);
             this.cmbSignals.TabIndex = 0;
             // 
-            // btnopeFile
-            // 
-            this.btnopeFile.Location = new System.Drawing.Point(174, 68);
-            this.btnopeFile.Name = "btnopeFile";
-            this.btnopeFile.Size = new System.Drawing.Size(197, 23);
-            this.btnopeFile.TabIndex = 8;
-            this.btnopeFile.Text = "Authentication file";
-            this.btnopeFile.UseVisualStyleBackColor = true;
-            this.btnopeFile.Click += new System.EventHandler(this.btnopeFile_Click);
-            // 
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
@@ -362,6 +375,8 @@ namespace WinTorControl
         private System.Windows.Forms.Button btnSignal;
         private System.Windows.Forms.Button btnopeFile;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.Button btnSaveConfig;
+        private System.Windows.Forms.ToolTip toolTip1;
     }
 }
 
