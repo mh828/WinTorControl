@@ -30,6 +30,7 @@ namespace WinTorControl
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.txtHost = new System.Windows.Forms.TextBox();
             this.btnMakeConnection = new System.Windows.Forms.Button();
             this.numPort = new System.Windows.Forms.NumericUpDown();
@@ -335,6 +336,7 @@ namespace WinTorControl
             this.Controls.Add(this.gbxComment);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.gbEvents);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Windows Tor Control";
             this.Load += new System.EventHandler(this.Form1_Load);
